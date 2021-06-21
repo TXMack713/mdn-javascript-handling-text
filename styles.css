@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: lightsteelblue;
+}
