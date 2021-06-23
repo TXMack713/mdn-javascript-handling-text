@@ -2,6 +2,12 @@ let quote = 'I dO nOT lIke gREen eGgS anD HAM';
 
 // Add your code here
 
+let fixedQuote = quote.toUpperCase().charAt(0) + quote.toLowerCase().substring(1, quote.length);
+
+let finalQuote = fixedQuote.substring(0, fixedQuote.indexOf('green eggs and ham')) + 'brussel sprouts.';
+
+const section = document.querySelector('section');
+
 // Don't edit the code below here!
 
 section.innerHTML = ' ';

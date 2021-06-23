@@ -2,6 +2,14 @@ let quote = 'I do not like green eggs and ham. I do not like them, Sam-I-Am.';
 let substring = 'green eggs and ham';
 
 // Add your code here
+let quoteLength = quote.length;
+
+let index = quote.indexOf(substring);
+
+let revisedQuote = quote.substring(0, (index + substring.length));
+
+const section = document.querySelector('section');
+
 
 // Don't edit the code below here!
 

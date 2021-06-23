@@ -2,7 +2,9 @@
 
  let quoteStart = "Don't judge each day by the harvest you reap ";
 
- let finalQuote = "but by the seeds that you plant.";
+ let quoteEnd = "but by the seeds that you plant.";
+
+ let finalQuote = quoteStart + quoteEnd;
  // Don't edit the code below here!
 
  const section = document.querySelector('section');
